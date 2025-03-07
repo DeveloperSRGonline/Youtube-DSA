@@ -195,7 +195,7 @@ let b = true
 b++;
 console.log(b) => 1
 
-let a = 10++;❌  --> let a = 10✅
+let a = 10++;❌  --> let a = 10✅  ☑️ -- constant pe ++ mat lagao variable name ko ++ lagana 
 console.log(a) --> console.log(a++)
 
 let a = 10;
@@ -204,17 +204,60 @@ let b = ++(a++) --> a++ = 10 --> ++10 --> it will show an error
 
 Math functions:
 
-Math.floor => chhote value<0.5 0.5>= badi value
+Math.round => chhoti value <0.5 --> ise floor me convert kar deta hai yane niche wali value
+Math.round => 0.5 >= badi value --> to ise ceil me convert kar dega yane upper wali value
+Math.ceil => ise upper wali value bana dega
+Math.floor => ise niche wali value bana dega
+Math.trunc => ye decimal ke baad vali value ko hata deta hai
+Math.pow(2,5) => 2^5 (base value,power value)
+Math.sqrt(16) => it will give "4"
+Math.cbrt(8) => it will give "2"
+Math.abs(-8) => it will give "8" koi bhi value ko positive me convert kar dega
+Math.max(8,3,9) => it will give "9" from all the values it will print the max value out of all values 
+Math.min(2,5,6) => it will print "2" from all the values it will print the min value out of all values  
+Math.random() => ye aap ko 0 se lekar 1 ke bich ki koi bhi random value print kar ke deta hai
 console.log(Math.round(10.6)) => 11
+
+
+Q.4 digit otp making
+
+cosole.log(Math.trunc((Math.random()*9000)+1000));// 1000 se 10000 ke bich me se koi bhi random number
+
+let a = 89.4345
+console.log(a.toFixed(2)) ye ek string return karta hai => 89.43
 
 console.log(Math.ceil(10.4)) => 11 => yane upper wali value 
 console.log(Math.floor(10.4)) => 10 => yane Lower wali value
 
 
+Q.calculating area of rectangle 
 
 
+let length = 10;
+let breadth = 20;
+
+let area = length * breadth;
+
+console.log("Area of rectangle is: " + area); // Output: Area of rectangle is: 200
 
 
+Q.Area of triangle by heron's formula
+
+let a  = 5;
+let b = 10;
+let c = 3;
+
+let s = (a + b + c)/2
+
+let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+
+Q.calculating circumference of circle
+
+let r = 12;
+
+let circumference = 2 * Math.PI * r;
+
+console.log("Circumference of circle is: " + circumference.toFixed(2)); // Output: Circumference of circle is: 75.39822971502571
 
 
 
