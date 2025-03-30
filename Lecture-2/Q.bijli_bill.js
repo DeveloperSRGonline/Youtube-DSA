@@ -9,22 +9,21 @@ more than 400  rs.13/unit
 
 let prompt = require('prompt-sync')();
 
-let units = Number(prompt('Enter Electricity units'));//700
+
+let unit = Number(prompt('Enter electricity units'))
 let amount = 0;
-
-if(units > 400){
-    amount += (units - 400) * 13;
-    units = 400;
-}
-if(units > 200 && units <= 400){
-    amount += (units - 200) * 8;
-    units = 200;
-}
-if(units > 100 && units <= 200){
-    amount += (units - 100) * 6;
-    units = 100;
-}
-
-amount += units * 4;
+if(unit > 400){
+    amount = (unit - 400) * 13;//3900
+    unit = 400;
+}//400
+if(unit > 200 && unit <= 400 ){
+    amount += (unit - 200) * 8; //1600
+    unit = 200;
+}//200
+if(unit > 100 && unit <= 200){
+    amount += (unit - 100) * 6;//600
+    unit = 100;
+}//100
+    amount += unit * 4;
 
 console.log("Total Electricity Bill: Rs. " + amount);

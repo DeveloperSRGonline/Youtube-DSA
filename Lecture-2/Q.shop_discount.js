@@ -35,3 +35,15 @@ if (amount > 0 && amount <= 5000) {
   console.log('Kya kar rahe ho bhai sah input do na...🤔');
 }
 console.log(amount - Math.floor((dis * amount) / 100));
+
+
+
+// efficent way 
+let paisa = Number(prompt('What is the final paisa?'));
+
+if (isNaN(paisa) || paisa < 0) {
+    console.log(paisa < 0 ? 'Amount cannot be negative.' : 'Invalid input. Please enter a numeric value.');
+} else {
+    let dis = paisa > 9000 ? 20 : paisa > 7000 ? 10 : paisa > 5000 ? 5 : 0;
+    console.log(paisa - Math.floor((dis * paisa) / 100));
+}
