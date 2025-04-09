@@ -1,8 +1,21 @@
-// break and continue
-// break -> loop ko rokta hai 
-// continue -> loop ko skip karta hai
+// guess the number program 
 
-for(let i = 0; i < 23; i++){
-    if(i === 11) break;
-    else console.log(i)
+let random = Math.floor(Math.random() * 100) + 1;
+
+let guess = -1;
+while (guess !== random) {
+    guess = Number(prompt("Guess the Number"));
+
+    if (isNaN(guess) || guess < 1 || guess > 100) {
+        console.log("Try again between 1 - 100");
+        continue;
+    }
+
+    if (guess > random) {
+        console.log("Too high, try again");
+    } else if (guess < random) {
+        console.log("Too low, try again");
+    } else {
+        console.log("Congrats 🎉 The number was", guess);
+    }
 }
