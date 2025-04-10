@@ -31,7 +31,8 @@
 // let s_trim = "             shivam                "
 // console.log(s_trim.trim())// shivam
 
-console.log(s.charAt(2)) //e
+// console.log(s.charAt(2)) //e
+
 
 //ASCII VALUES
 // A - 65 , B - 66
