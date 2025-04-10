@@ -1,46 +1,42 @@
-//Array is a collection of values
-//js me array me different data types ki values bhi rakh sakte hai
+// // Array is a collection of values
+// // js me array me different data types ki values bhi rakh sakte hai
 
-// let arr = [];
-// arr.push(100)// ye last me values jodne ka kaam karta hai 
-// arr.push(200)
-// arr.push("shivam")
-// arr.push(false)
-// console.log(arr.pop())// ye last se value hatane ka kaam karta hai 
-// console.log(arr)
-// console.log(arr[0])
+// // let array = [];
+// array.push(100) // ye last me values jodne ka kaam karta hai
+// array.push(200)
+// array.push("shivam")
+// array.push(false)
+// console.log(array.pop()) // ye last se value hatane ka kaam karta hai
+// console.log(array)
+// console.log(array[0])
 
-// let a = 2;
-// console.log(a)
+// let number = 2;
+// console.log(number)
 
-// putting value by using index 
+// // putting value by using index
 
-// let arr = []; // ye jo hamne array banaya ye dynamic array 
+// let array = []; // ye jo hamne array banaya ye dynamic array
 
-// arr[0] = 12;
-// arr[1] = 18;
-// arr[2] = 15;
-// arr[3] = 14;
-// arr[10] = 54;
+// array[0] = 12;
+// array[1] = 18;
+// array[2] = 15;
+// array[3] = 14;
+// array[10] = 54;
 
+// // console.log(array)
 
-// // console.log(arr)
+// let filledArray = new Array(3).fill(0);
+// console.log(filledArray)
 
-// let a = new Array(3).fill(0);
-// console.log(a)
+// // Array is linear data structure which store multiple values in a contineous manner
 
-//Array is linear data structure which store multiple values in a contineous manner
+// 
+// // array[0] = Number(prompt('Enter a value'))
+// // array[1] = Number(prompt('Enter a value'))
+// // array[2] = Number(prompt('Enter a value'))
+// // array[3] = Number(prompt('Enter a value'))
+// // array[4] = Number(prompt('Enter a value'))
+// console.log(array)
 
-
-// putting values using array
-let prompt = require('prompt-sync')();
-let arr = new Array(Number(prompt("Enter how big array will be : ")));
-for(i=0;i<arr.length;i++){
-    arr[i] = Number(prompt('Enter a value : '))
-}
-// arr[0] = Number(prompt('Enter a value'))
-// arr[1] = Number(prompt('Enter a value'))
-// arr[2] = Number(prompt('Enter a value'))
-// arr[3] = Number(prompt('Enter a value'))
-// arr[4] = Number(prompt('Enter a value'))
-console.log(arr)
+// // sum nikal te time sum = 0;
+// // but factorial nikal te waqt fact = 0;
