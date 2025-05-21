@@ -1,0 +1,9 @@
+Q.Left and right rotation by 1 ✅
+Q.Left and right rotation by k element ✅
+Q.Remove duplicates from the sorted array
+Q.Merge sorted array
+Q.Best time to buy and sell stocks
+Q.Sort the color
+Q.Maximum Subarray / kadane's algorithm
+Q.Majority element / moorie's voting algo
+Q.Trapping Rain water
