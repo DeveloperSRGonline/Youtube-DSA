@@ -1,0 +1,71 @@
+-- undefined - value
+-- not defined - error
+-- NaN - Not a Number 
+let a = 10;
+let b = "20";
+console.log(typeof(a+b))// string -- concatination 
+-- har vo jagah jaha + laga ho ye jaruru nahi ki vo addition hi kar raha ho vo concatination bhi kar raha ho sakta hai 
+let a = 10;
+let b = 20;
+console.log('sum is : ' + a + b) // sum is : 1020 -- concatination
+console.log(1-"1") -- // 0 -- operator ko dekh kar type mein change karna 
+-- in case of + -- it can be concatination or addition -- is ko type coercion 
+-- js engine 
+-- addition tab hi hoga jab dono taraf number ho eg. 1 + 1 = 2
+-- typeof - to check data type of any value
+-- prompt - data pick as a string for that - we use this value = Number(value)
+Number() is a function
+--value = Number(value) isse "type casting" and "type conversion" bhi kahete hai
+-- basically ek type mein se dusre type mein jane ko type casting/conversion bolte hai 
+Number("shivam") -- shivam ek string hai jo ki number nahi ban sakta
+-- console pe agar blue me hai toh number and black mein hai toh string
+-- "/" operator - gives quotient 
+js mein integer divide by integer, integer hi hoga ye jaruri nahi hai - lekin ye ho sakta hai using Math.floor(int/int)
+-- js is cheej ka khayal rakhana padte hai ki jaha jaha bhi int/int and hame ans bhi int mein chahiye vaha vaha hum Math.floor use karenge 
+-- "%" - this operator gives reminder 
+-- agar (2%12)  kuchh is tarike ka ho tab dividend chhoti hai diviser se tab ans mein dividend hi aayega 
+-- let a = 10
+-- console.log(a%10) -- ise se last se i digit hat jayega 
+-- and agar last digit chod ke sirf baki ke digit chahiye toh --> [Math.floor(a/10)]
+-- >= is mein kaisa hota hai ki ya toh > ya toh = dono mein se koi bhi condition true ho jaye 
+-- <= same vaisa hi
+-- = assignment operator
+-- == unstrict version equality
+-- == strict version equality
+-- && - and operator(ek bhi false toh false)
+-- || - or operator(ek bhi true toh true)
+
+   "--" - decrement operator
+   a-- - post decrement
+   --a - pre decrement
+
+   "++" - increment operator
+   a++ - post increment
+   --a - pre increment
+
+Q.
+let i = 11;
+i = i++ + ++i;
+console.log(i)
+
+Q.
+let a = 11, b = 22;
+let c = a + b + a++ + b++ + ++a + ++b;
+console.log(a,b,c)
+
+Q.
+let b = true // js true ko 1 manlega
+b++
+console.log(b); 
+
+Q.
+let a = 11++;
+console.log(a)
+
+Q.
+let i = 11;
+let j = --(i++)
+- kul milakar ye kahe raha hai ki tum + operator kisi number pe nahi laga sakte 
+
+console.log(Math.round(10.9));-- 0.1 - 0.4 -> lower value and 0.5 - 0.9 -> upper value
+a.toFixed(2) ye string mein convert kar deta hai 
