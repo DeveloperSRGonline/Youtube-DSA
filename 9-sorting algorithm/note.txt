@@ -1,0 +1,14 @@
+- first element ko bubble maan lena hai 
+- agar bubble element right element se bada hai toh bubble element ko right element se swap kar dena hai and agar bubble element right element se chhota hai toh bubble right element ko pass kar dena hai
+
+
+insertion sort 
+- 1 index ke element ko hum maan lenge key 
+- i start hoga arr[1]
+- arr[i] - hum maan lenge key 
+- apne us key ko insert karo sorted part mein
+- mai bolunga pointer kaha se start hoga j = i - 1 se
+- agar meri j wali element key se badi hai toh arr[j+1] = arr[j]
+- the movement aapne arr[j+1] = arr[j]
+- jab bhi aap ye check karte ho ke j element key se badi hai ya nahi usse pahele aap ye bhi check karo ke j kahi -1 index pe toh nahi pohoch gayi
+- agar ye j -1 index par hai toh rukh jana hai kyo ki j+1 ki jo position hai vo key ki position hai 
