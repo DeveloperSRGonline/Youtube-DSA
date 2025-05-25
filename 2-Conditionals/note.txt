@@ -1,0 +1,5 @@
+-- Falsy values - 0 0n false "" null undefined NaN 
+-- Truthy value - other than Falsy is Truthy
+
+NaN === NaN in js
+isNaN() it is a function

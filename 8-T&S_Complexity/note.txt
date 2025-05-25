@@ -1,0 +1,15 @@
+Complexity - Level(like medium , hard) ko measure karna
+Time Complexity - Amount of time taken as the function of input size
+Jaise jaise n ki value badhegi vaise vaise number of operation badhenge
+Time Complexity is for large input
+Representation of time Complexity (Notation)
+    -- Big O - Worst case senario (upper bound)
+    -- Theta θ - Average 
+    -- Omega Ω - Lower bound (best case)
+
+O(1) - constant time Complexity
+ek step me khatam 
+n ki exact value given hai toh 
+
+O(n) - Linear time Complexity
+n ki value pata nahi hai or user define hai kuchi bhi ho sakti hai 

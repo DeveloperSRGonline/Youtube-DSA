@@ -8,17 +8,17 @@ let prompt = require('prompt-sync')();
 let amount = Number(prompt('Enter the amount:'));
 
 // broot force way
-// if(amount > 0 && amount <= 5000){
-//     console.log('no discount 😭')
-// }else if(amount > 5000 && amount <= 7000){
-//     console.log(amount - Math.floor((5*amount)/100),'😊');
-// }else if(amount > 7000 && amount <= 9000){
-//     console.log(amount - Math.floor((10*amount)/100),'😁');
-// }else if(amount > 9000){
-//     console.log(amount - Math.floor((20*amount)/100),'😀');
-// }else{
-//     console.log('Kya kar rahe ho bhai sah input do na...🤔')
-// }
+if(amount > 0 && amount <= 5000){
+    console.log('no discount 😭')
+}else if(amount > 5000 && amount <= 7000){
+    console.log(amount - Math.floor((5*amount)/100),'😊');
+}else if(amount > 7000 && amount <= 9000){
+    console.log(amount - Math.floor((10*amount)/100),'😁');
+}else if(amount > 9000){
+    console.log(amount - Math.floor((20*amount)/100),'😀');
+}else{
+    console.log('Kya kar rahe ho bhai sah input do na...🤔')
+}
 
 // optimized way
 

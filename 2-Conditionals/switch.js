@@ -17,17 +17,17 @@ switch (day) {
 
 
 // 🤯🤯🤯🤯🤯🤯🤯🤯🤯🤯🤯🤯🤯
-// switch (true) {
-//   case 10 < 6:
-//     console.log('hello');
-//     break;
-//   case 10 > 6:
-//     console.log('hey');
-//     break;
+switch (true) {
+  case 10 < 6:
+    console.log('hello');
+    break;
+  case 10 > 6:
+    console.log('hey');
+    break;
 
-//   default:
-//     break;
-// }
+  default:
+    break;
+}
 
 
 // 🤯 khel hai beta 
